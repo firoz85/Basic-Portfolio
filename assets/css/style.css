@@ -1,0 +1,66 @@
+body {
+    margin: 1px;
+    background-color: #ffffff;
+    }
+header 
+{
+    background-color: #ccc;
+    height: 100px;
+    width: 99%;
+}
+.container {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+  }
+#section1, #section2, #section3  { 
+    float:left;  
+    width:33%; 
+    height:100px; 
+} 
+#section1, #section3 {
+    background-color: #666;
+}
+#section2 {
+    background-color: #888;
+}
+
+#aside, #section { 
+    float:left;      
+    height:300px; 
+} 
+#aside {
+    background-color: #fff;
+    width: 350px;
+    height: 150px;
+    left: 150px;
+    bottom: 100px;
+    display:inline;
+    position: absolute;
+     
+}
+#section4 {
+    background-color: #eee;
+    height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+
+#blue {
+    background-color: #63a3da;
+    width: 100%;
+    display: inline;
+}
+footer{
+    background-color:#ccc;
+    width: 99%;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
